@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A58914FBA2791FD9F04FD1AF /* Pods_MararitaParty2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8245A7721C56C7BBFC8F39C1 /* Pods_MararitaParty2.framework */; };
+		B1FAE7E8210BC2EB00EE407A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FAE7E7210BC2EB00EE407A /* AppDelegate.swift */; };
+		B1FAE7EA210BC2EB00EE407A /* PartyInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FAE7E9210BC2EB00EE407A /* PartyInfoVC.swift */; };
+		B1FAE7ED210BC2EB00EE407A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FAE7EB210BC2EB00EE407A /* Main.storyboard */; };
+		B1FAE7EF210BC2ED00EE407A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FAE7EE210BC2ED00EE407A /* Assets.xcassets */; };
+		B1FAE7F2210BC2ED00EE407A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FAE7F0210BC2ED00EE407A /* LaunchScreen.storyboard */; };
+		B1FAE7FE210BD7CD00EE407A /* RecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FAE7FD210BD7CD00EE407A /* RecipeVC.swift */; };
+		B1FAE800210BD80A00EE407A /* MargaritaCalulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FAE7FF210BD80A00EE407A /* MargaritaCalulator.swift */; };
+		B1FAE802210BD82900EE407A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FAE801210BD82900EE407A /* Recipe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56E9E862F9F518DDDA1FE24A /* Pods-MararitaParty2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MararitaParty2.release.xcconfig"; path = "Pods/Target Support Files/Pods-MararitaParty2/Pods-MararitaParty2.release.xcconfig"; sourceTree = "<group>"; };
+		8245A7721C56C7BBFC8F39C1 /* Pods_MararitaParty2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MararitaParty2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FAE7E4210BC2EB00EE407A /* MargaritaParty2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MargaritaParty2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FAE7E7210BC2EB00EE407A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1FAE7E9210BC2EB00EE407A /* PartyInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyInfoVC.swift; sourceTree = "<group>"; };
+		B1FAE7EC210BC2EB00EE407A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1FAE7EE210BC2ED00EE407A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1FAE7F1210BC2ED00EE407A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1FAE7F3210BC2ED00EE407A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FAE7FD210BD7CD00EE407A /* RecipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeVC.swift; sourceTree = "<group>"; };
+		B1FAE7FF210BD80A00EE407A /* MargaritaCalulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaCalulator.swift; sourceTree = "<group>"; };
+		B1FAE801210BD82900EE407A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		BD40175ED9F5D24C4323201D /* Pods-MararitaParty2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MararitaParty2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MararitaParty2/Pods-MararitaParty2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1FAE7E1210BC2EB00EE407A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58914FBA2791FD9F04FD1AF /* Pods_MararitaParty2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3932D7A0E25898B5C5C2C141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8245A7721C56C7BBFC8F39C1 /* Pods_MararitaParty2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99E4FC1E2120277D4F4EC874 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD40175ED9F5D24C4323201D /* Pods-MararitaParty2.debug.xcconfig */,
+				56E9E862F9F518DDDA1FE24A /* Pods-MararitaParty2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1FAE7DB210BC2EA00EE407A = {
+			isa = PBXGroup;
+			children = (
+				B1FAE7E6210BC2EB00EE407A /* MararitaParty2 */,
+				B1FAE7E5210BC2EB00EE407A /* Products */,
+				99E4FC1E2120277D4F4EC874 /* Pods */,
+				3932D7A0E25898B5C5C2C141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1FAE7E5210BC2EB00EE407A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1FAE7E4210BC2EB00EE407A /* MargaritaParty2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1FAE7E6210BC2EB00EE407A /* MararitaParty2 */ = {
+			isa = PBXGroup;
+			children = (
+				B1FAE7F3210BC2ED00EE407A /* Info.plist */,
+				B1FAE7FC210BD75D00EE407A /* Controller */,
+				B1FAE7FA210BD74E00EE407A /* View */,
+				B1FAE7F9210BD74600EE407A /* Model */,
+			);
+			path = MararitaParty2;
+			sourceTree = "<group>";
+		};
+		B1FAE7F9210BD74600EE407A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1FAE7FF210BD80A00EE407A /* MargaritaCalulator.swift */,
+				B1FAE801210BD82900EE407A /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1FAE7FA210BD74E00EE407A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1FAE7F0210BC2ED00EE407A /* LaunchScreen.storyboard */,
+				B1FAE7EB210BC2EB00EE407A /* Main.storyboard */,
+				B1FAE7EE210BC2ED00EE407A /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1FAE7FC210BD75D00EE407A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1FAE7E7210BC2EB00EE407A /* AppDelegate.swift */,
+				B1FAE7E9210BC2EB00EE407A /* PartyInfoVC.swift */,
+				B1FAE7FD210BD7CD00EE407A /* RecipeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1FAE7E3210BC2EB00EE407A /* MargaritaParty2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FAE7F6210BC2ED00EE407A /* Build configuration list for PBXNativeTarget "MargaritaParty2" */;
+			buildPhases = (
+				AF1D8635E819C82BF70B6558 /* [CP] Check Pods Manifest.lock */,
+				B1FAE7E0210BC2EB00EE407A /* Sources */,
+				B1FAE7E1210BC2EB00EE407A /* Frameworks */,
+				B1FAE7E2210BC2EB00EE407A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MargaritaParty2;
+			productName = MararitaParty2;
+			productReference = B1FAE7E4210BC2EB00EE407A /* MargaritaParty2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1FAE7DC210BC2EA00EE407A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jonathan Compton";
+				TargetAttributes = {
+					B1FAE7E3210BC2EB00EE407A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B1FAE7DF210BC2EA00EE407A /* Build configuration list for PBXProject "MargaritaParty2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1FAE7DB210BC2EA00EE407A;
+			productRefGroup = B1FAE7E5210BC2EB00EE407A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1FAE7E3210BC2EB00EE407A /* MargaritaParty2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1FAE7E2210BC2EB00EE407A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FAE7F2210BC2ED00EE407A /* LaunchScreen.storyboard in Resources */,
+				B1FAE7EF210BC2ED00EE407A /* Assets.xcassets in Resources */,
+				B1FAE7ED210BC2EB00EE407A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF1D8635E819C82BF70B6558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MararitaParty2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1FAE7E0210BC2EB00EE407A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FAE7FE210BD7CD00EE407A /* RecipeVC.swift in Sources */,
+				B1FAE7EA210BC2EB00EE407A /* PartyInfoVC.swift in Sources */,
+				B1FAE800210BD80A00EE407A /* MargaritaCalulator.swift in Sources */,
+				B1FAE7E8210BC2EB00EE407A /* AppDelegate.swift in Sources */,
+				B1FAE802210BD82900EE407A /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1FAE7EB210BC2EB00EE407A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FAE7EC210BC2EB00EE407A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1FAE7F0210BC2ED00EE407A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FAE7F1210BC2ED00EE407A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1FAE7F4210BC2ED00EE407A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1FAE7F5210BC2ED00EE407A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1FAE7F7210BC2ED00EE407A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD40175ED9F5D24C4323201D /* Pods-MararitaParty2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RF9G4QRLLG;
+				INFOPLIST_FILE = MararitaParty2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouchybartender.MargaritaParty3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1FAE7F8210BC2ED00EE407A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E9E862F9F518DDDA1FE24A /* Pods-MararitaParty2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RF9G4QRLLG;
+				INFOPLIST_FILE = MararitaParty2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouchybartender.MargaritaParty3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bc1ffeb8-26b0-4a56-a9dc-3c6d5a374bf1";
+				PROVISIONING_PROFILE_SPECIFIER = "MargaritaParty3 - Distribution";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1FAE7DF210BC2EA00EE407A /* Build configuration list for PBXProject "MargaritaParty2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FAE7F4210BC2ED00EE407A /* Debug */,
+				B1FAE7F5210BC2ED00EE407A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FAE7F6210BC2ED00EE407A /* Build configuration list for PBXNativeTarget "MargaritaParty2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FAE7F7210BC2ED00EE407A /* Debug */,
+				B1FAE7F8210BC2ED00EE407A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1FAE7DC210BC2EA00EE407A /* Project object */;
+}
