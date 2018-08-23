@@ -374,8 +374,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grouchybartender.MargaritaParty3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bc1ffeb8-26b0-4a56-a9dc-3c6d5a374bf1";
+				PROVISIONING_PROFILE_SPECIFIER = "MargaritaParty3 - Distribution";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
